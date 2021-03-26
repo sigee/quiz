@@ -1,0 +1,5 @@
+.idea/
+coverage/
+infection/
+vendor/
+html-coverage/
