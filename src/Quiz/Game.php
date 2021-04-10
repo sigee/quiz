@@ -2,6 +2,8 @@
 
 namespace Quiz;
 
+use PDO;
+
 class Game
 {
 
@@ -13,4 +15,11 @@ class Game
     {
         return $a + $b;
     }
+
+    // @TODO: get random question id from database
+    public function generateQuestionId($previousQuestions = [])
+    {
+        return 1;
+    }
+
 }
