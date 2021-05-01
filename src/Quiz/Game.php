@@ -22,4 +22,17 @@ class Game
         return 1;
     }
 
+    public function getQuestion($current_question_id)
+    {
+        return [
+            'text' => 'Mi a kérdés?',
+            'answers' => [
+                1 => 'Válasz 1',
+                2 => 'Válasz 2',
+                3 => 'Válasz 3',
+                4 => 'Válasz 4'
+            ],
+        ];
+    }
+
 }
