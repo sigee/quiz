@@ -10,6 +10,7 @@
   ],
   "require": {
     "php": "^7.4",
+    "ext-json": "*",
     "theoduin/router": "1.*"
   },
   "require-dev": {
